@@ -48,6 +48,9 @@ a {
 }
 
 .nav {
+  position: absolute;
+  top: 0;
+  right: 20px;
   ul {
     float: right;
     li {
@@ -154,3 +157,19 @@ a {
 
 
 // ---- about page ----------------
+
+#aboutGreeting {
+  border-top: solid 3px $dark-teal;
+  border-bottom: none;
+  max-width: 480px;
+  padding-bottom: 0;
+  margin-top: 15vh;
+  h3 {
+    line-height: 55px;
+  }
+}
+
+.about {
+  margin-top: 40px;
+  width: 400px;
+}

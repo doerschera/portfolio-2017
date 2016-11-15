@@ -27,10 +27,14 @@ a {
   a:visited {
     color: #59838c; }
 
-.nav ul {
-  float: right; }
-  .nav ul li {
-    font-size: 13px; }
+.nav {
+  position: absolute;
+  top: 0;
+  right: 20px; }
+  .nav ul {
+    float: right; }
+    .nav ul li {
+      font-size: 13px; }
 
 .dark-teal {
   color: #106377; }
@@ -101,5 +105,18 @@ a {
 #leftArrow {
   top: 25%;
   left: 30px; }
+
+#aboutGreeting {
+  border-top: solid 3px #106377;
+  border-bottom: none;
+  max-width: 480px;
+  padding-bottom: 0;
+  margin-top: 15vh; }
+  #aboutGreeting h3 {
+    line-height: 55px; }
+
+.about {
+  margin-top: 40px;
+  width: 400px; }
 
 /*# sourceMappingURL=style.css.map */
