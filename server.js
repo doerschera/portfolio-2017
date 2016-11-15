@@ -10,7 +10,7 @@ app.engine('handlebars', handlebars({
 app.set('view engine', 'handlebars');
 
 
-var projects = require('./projects/projects.js')
+var projects = require('./projects.js')
 
 // routes
 app.get('/', function(req, res) {
