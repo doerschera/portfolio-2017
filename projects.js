@@ -46,7 +46,7 @@ var projects = {
       skills: 'Express &#x25cf; jQuery &#x25cf; Charts.js &#x25cf; SASS',
       video: 'Objectified.mp4',
       links: ['https://github.com/doerschera/objectified', 'https://object-ified.herokuapp.com/'],
-      description: "Objectified is a short quiz that matches your current mood to an inanimate object. This app is a riff on traditional dating sites, created by correlating some aspect of human emotion to a characteristic of objects. To calculate the result, the difference between each of the user's ratings are compared to the overall difference between each object's rating."
+      description: "Objectified is a short quiz that matches your current mood to an inanimate object. This app is a riff on traditional dating sites, created by correlating aspects of human emotion to characteristics of objects. To calculate the result, the difference between each of the user's ratings are compared to the overall difference between each object's rating."
     }
   ]
 }
