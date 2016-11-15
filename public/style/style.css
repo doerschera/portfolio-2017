@@ -279,7 +279,7 @@ a {
     margin-right: -100px; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .nav {
-    margin-right: -165px; }
+    margin-right: 0px; }
 
   .viewer {
     margin-top: 19%;
@@ -290,7 +290,7 @@ a {
     padding: 40px 60px; } }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .viewer {
-    left: 20%;
+    left: 13%;
     margin-top: 10%; }
 
   .project-info {
@@ -299,11 +299,10 @@ a {
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .viewer {
     margin-top: 10%;
-    left: 20%; }
+    left: 11%; }
 
   .project-info {
-    bottom: -170px;
-    left: 33px; }
+    bottom: -120px; }
 
   .hide-info {
     display: none; } }

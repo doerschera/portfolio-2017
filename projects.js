@@ -5,7 +5,7 @@ var projects = {
       title: 'RISD Tour',
       skills: 'React &#x25cf; Google Maps &#x25cf; JS &#x25cf; SASS',
       video: 'RISDTour.mp4',
-      iamge: 'RISD2.png',
+      image: 'RISD2.png',
       links: ['https://github.com/doerschera/RISD-react', 'https://risd-tour.herokuapp.com/'],
       description: "This app is a web-based tour for prospective students who are unable to visit RISD in person. It provides a tour of campus with information about the different departments and spaces within each building. Students can also get insight into RISD student life and academics with links back to the main site for more details."
     },

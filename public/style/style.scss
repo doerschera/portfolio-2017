@@ -428,7 +428,7 @@ a {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .nav {
-      margin-right: -165px;
+      margin-right: 0px;
     }
 
     .viewer {
@@ -450,7 +450,7 @@ a {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .viewer {
-      left: 20%;
+      left: 13%;
       margin-top: 10%;
     }
 
@@ -468,12 +468,11 @@ a {
   and (orientation: portrait) {
     .viewer {
       margin-top: 10%;
-      left: 20%;
+      left: 11%;
     }
 
     .project-info {
-      bottom: -170px;
-      left: 33px
+      bottom: -120px;
     }
 
     .hide-info {
