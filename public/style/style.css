@@ -74,6 +74,9 @@ a {
   max-width: 470px;
   margin: 40px auto 0 auto; }
 
+.project-wrapper {
+  display: none; }
+
 .viewer {
   position: absolute;
   width: 100%;
