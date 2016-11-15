@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab");
+body {
+  background-color: white;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  color: #214e5f; }
+
+p {
+  font-size: 14px;
+  font-family: "Raleway", "Helvetica Neue", sans-serif; }
+
+ul {
+  margin-top: 20px; }
+
+li {
+  display: inline;
+  list-style: none; }
+  li:nth-child(odd) {
+    margin-right: 20px; }
+
+a {
+  font-family: "Raleway", "Helvetica Neue", sans-serif;
+  color: #106377;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+  a:visited {
+    color: #59838c; }
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 20px; }
+  .nav ul {
+    float: right; }
+    .nav ul li {
+      font-size: 13px; }
+
+.dark-teal {
+  color: #106377; }
+
+.medium-teal {
+  color: #4e737f; }
+
+.light-teal {
+  color: #59838c; }
+
+.big-title, .medium-title, .small-title {
+  display: inline-block; }
+
+.big-title {
+  font-size: 70px;
+  margin-bottom: 5px; }
+
+.medium-title {
+  font-size: 50px;
+  margin-bottom: 5px; }
+
+.small-title {
+  font-size: 20px; }
+
+.tracking-kerning {
+  line-height: 17px;
+  letter-spacing: 0.25px; }
+
+.greeting {
+  max-width: 470px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 50px;
+  border-bottom: solid 3px #106377; }
+
+.home-links {
+  max-width: 470px;
+  margin: 40px auto 0 auto; }
+
+.project-wrapper {
+  display: none; }
+
+.viewer {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.project-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 80px;
+  padding-top: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 250px; }
+
+.description {
+  margin-top: 40px; }
+
+.arrow {
+  position: absolute;
+  font-size: 36px; }
+  .arrow:hover {
+    cursor: pointer; }
+
+#rightArrow {
+  top: 25%;
+  right: 30px; }
+
+#leftArrow {
+  top: 25%;
+  left: 30px; }
+
+#aboutGreeting {
+  border-top: solid 3px #106377;
+  border-bottom: none;
+  max-width: 480px;
+  padding-bottom: 0;
+  margin-top: 15vh; }
+  #aboutGreeting h3 {
+    line-height: 55px; }
+
+.about {
+  margin-top: 40px;
+  width: 400px; }
+
+/*# sourceMappingURL=style.css.map */

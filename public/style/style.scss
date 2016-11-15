@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+// ---- variables --------------
+$dark-blue: rgb(33, 78, 95);
+$dark-teal: rgb(16, 99, 119);
+$medium-teal: rgb(78, 115, 127);
+$light-teal: rgb(89, 131, 140);
+
+$title-font: 'Roboto Slab', 'Times New Roman', serif;
+$body-font: 'Raleway', 'Helvetica Neue', sans-serif;
+
+//----- element styles ----------
+
+body {
+  background-color: white;
+  font-family: $title-font;
+  color: $dark-blue;
+}
+
+p {
+  font-size: 14px;
+  font-family: $body-font;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  &:nth-child(odd) {
+    margin-right: 20px;
+  }
+}
+
+a {
+  font-family: $body-font;
+  color: $dark-teal;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &:visited {
+    color: $light-teal;
+  }
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  ul {
+    float: right;
+    li {
+      font-size: 13px;
+    }
+  }
+}
+
+// ---- text and colors ---------
+
+.dark-teal {
+  color: $dark-teal;
+}
+
+.medium-teal {
+  color: $medium-teal;
+}
+
+.light-teal {
+  color: $light-teal;
+}
+
+.big-title, .medium-title, .small-title {
+  display: inline-block;
+}
+
+.big-title {
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+.medium-title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.small-title {
+  font-size: 20px;
+}
+
+.tracking-kerning {
+  line-height: 17px;
+  letter-spacing: 0.25px;
+}
+
+
+// ---- home page ---------------
+
+.greeting {
+  max-width: 470px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 50px;
+  // border-top: solid 1px $dark-teal;
+  border-bottom: solid 3px $dark-teal;
+}
+
+.home-links {
+  max-width: 470px;
+  margin: 40px auto 0 auto;
+}
+
+
+// ---- work page ----------------
+
+.project-wrapper {
+  display: none;
+}
+
+.viewer {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.project-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 80px;
+  padding-top: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 250px;
+}
+
+.description {
+  margin-top: 40px;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 36px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#rightArrow {
+  top: 25%;
+  right: 30px;
+}
+
+#leftArrow {
+  top: 25%;
+  left: 30px;
+}
+
+
+// ---- about page ----------------
+
+#aboutGreeting {
+  border-top: solid 3px $dark-teal;
+  border-bottom: none;
+  max-width: 480px;
+  padding-bottom: 0;
+  margin-top: 15vh;
+  h3 {
+    line-height: 55px;
+  }
+}
+
+.about {
+  margin-top: 40px;
+  width: 400px;
+}
