@@ -210,7 +210,7 @@ a {
   }
 
   .medium-title {
-    font-size: 36px;
+    font-size: 35px;
     margin-bottom: 5px;
   }
 
@@ -218,8 +218,16 @@ a {
     font-size: 16px;
   }
 
-  .greeting, .home-links {
+  .greeting, .home-links, #aboutGreeting, .about {
     max-width: 337px;
+  }
+
+  #aboutGreeting h3 {
+    line-height: 40px;
+  }
+
+  .about {
+    margin-top: 30px;
   }
 }
 
@@ -244,16 +252,21 @@ a {
       font-size: 13px;
     }
 
-    .greeting, .home-links {
+    .greeting, .home-links, #aboutGreeting, .about {
       max-width: 243px;
     }
 
-    .greeting {
+    .greeting, #aboutGreeting {
       padding: 20px;
     }
 
     .home-links {
+      margin-top: 20px;
       font-size: 13px;
+    }
+
+    #aboutGreeting h3 {
+      line-height: 28px;
     }
 
 }
@@ -269,7 +282,7 @@ a {
     }
 
     .medium-title {
-      font-size: 36px;
+      font-size: 35px;
       margin-bottom: 5px;
     }
 
@@ -277,11 +290,20 @@ a {
       font-size: 16px;
     }
 
-    .greeting, .home-links {
+    .greeting, .home-links, #aboutGreeting, .about {
       max-width: 337px;
     }
 
-    .greeting {
+    .greeting, #aboutGreeting {
       padding: 30px;
+    }
+
+    #aboutGreeting h3 {
+      line-height: 40px;
+    }
+
+    .home-links {
+      margin-top: 0px;
+      margin-bottom: 40px;
     }
 }

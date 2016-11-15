@@ -146,14 +146,20 @@ a {
     margin-bottom: 5px; }
 
   .medium-title {
-    font-size: 36px;
+    font-size: 35px;
     margin-bottom: 5px; }
 
   .small-title {
     font-size: 16px; }
 
-  .greeting, .home-links {
-    max-width: 337px; } }
+  .greeting, .home-links, #aboutGreeting, .about {
+    max-width: 337px; }
+
+  #aboutGreeting h3 {
+    line-height: 40px; }
+
+  .about {
+    margin-top: 30px; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .big-title {
     font-size: 36px;
@@ -166,30 +172,41 @@ a {
   .small-title {
     font-size: 13px; }
 
-  .greeting, .home-links {
+  .greeting, .home-links, #aboutGreeting, .about {
     max-width: 243px; }
 
-  .greeting {
+  .greeting, #aboutGreeting {
     padding: 20px; }
 
   .home-links {
-    font-size: 13px; } }
+    margin-top: 20px;
+    font-size: 13px; }
+
+  #aboutGreeting h3 {
+    line-height: 28px; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .big-title {
     font-size: 50px;
     margin-bottom: 5px; }
 
   .medium-title {
-    font-size: 36px;
+    font-size: 35px;
     margin-bottom: 5px; }
 
   .small-title {
     font-size: 16px; }
 
-  .greeting, .home-links {
+  .greeting, .home-links, #aboutGreeting, .about {
     max-width: 337px; }
 
-  .greeting {
-    padding: 30px; } }
+  .greeting, #aboutGreeting {
+    padding: 30px; }
+
+  #aboutGreeting h3 {
+    line-height: 40px; }
+
+  .home-links {
+    margin-top: 0px;
+    margin-bottom: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
