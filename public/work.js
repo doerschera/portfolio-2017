@@ -33,4 +33,18 @@ $(document).ready(function() {
     })
   })
 
+  $('.x').on('click', function() {
+    $('.arrow').hide();
+    $('.project-content').hide(700);
+    $('.x').hide();
+    $('.upArrow').show();
+  })
+
+  $('.upArrow').on('click', function() {
+    $('.project-content').show(700);
+    $('.upArrow').hide();
+    $('.arrow').show();
+    $('.x').show();
+  })
+
 })
