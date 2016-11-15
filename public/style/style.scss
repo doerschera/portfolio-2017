@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+// ---- variables --------------
+$dark-blue: rgb(33, 78, 95);
+$dark-teal: rgb(16, 99, 119);
+$medium-teal: rgb(78, 115, 127);
+$light-teal: rgb(89, 131, 140);
+
+$title-font: 'Roboto Slab', 'Times New Roman', serif;
+$body-font: 'Raleway', 'Helvetica Neue', sans-serif;
+
+//----- element styles ----------
+
+body {
+  background-color: white;
+  font-family: $title-font;
+  color: $dark-blue;
+}
+
+p {
+  font-size: 14px;
+  font-family: $body-font;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  &:nth-child(odd) {
+    margin-right: 20px;
+  }
+}
+
+a {
+  font-family: $body-font;
+  color: $dark-teal;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &:visited {
+    color: $light-teal;
+  }
+}
+
+// ---- text and colors ---------
+
+.dark-teal {
+  color: $dark-teal;
+}
+
+.medium-teal {
+  color: $medium-teal;
+}
+
+.light-teal {
+  color: $light-teal;
+}
+
+.big-title, .medium-title, .small-title {
+  display: inline-block;
+}
+
+.big-title {
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+.medium-title {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.small-title {
+  font-size: 20px;
+}
+
+.tracking-kerning {
+  line-height: 17px;
+  letter-spacing: 0.25px;
+}
+
+
+// ---- home page ---------------
+
+.greeting {
+  max-width: 470px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 50px;
+  // border-top: solid 1px $dark-teal;
+  border-bottom: solid 3px $dark-teal;
+}
+
+.home-links {
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+// ---- work page ----------------
+
+
+
+// ---- about page ----------------

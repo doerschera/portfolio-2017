@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab");
+body {
+  background-color: white;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  color: #214e5f; }
+
+p {
+  font-size: 14px;
+  font-family: "Raleway", "Helvetica Neue", sans-serif; }
+
+ul {
+  margin-top: 40px; }
+
+li {
+  display: inline;
+  list-style: none; }
+  li:nth-child(odd) {
+    margin-right: 20px; }
+
+a {
+  font-family: "Raleway", "Helvetica Neue", sans-serif;
+  color: #106377;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+  a:visited {
+    color: #59838c; }
+
+.dark-teal {
+  color: #106377; }
+
+.medium-teal {
+  color: #4e737f; }
+
+.light-teal {
+  color: #59838c; }
+
+.big-title, .medium-title, .small-title {
+  display: inline-block; }
+
+.big-title {
+  font-size: 70px;
+  margin-bottom: 5px; }
+
+.medium-title {
+  font-size: 50px;
+  margin-bottom: 5px; }
+
+.small-title {
+  font-size: 20px; }
+
+.tracking-kerning {
+  line-height: 17px;
+  letter-spacing: 0.25px; }
+
+.greeting {
+  max-width: 470px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 50px;
+  border-bottom: solid 3px #106377; }
+
+.home-links {
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=style.css.map */
