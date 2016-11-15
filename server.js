@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/work', function(req, res) {
-  res.render('portfolio');
+  res.render('work');
 })
 
 app.get('/about', function(req, res) {
